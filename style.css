@@ -1,0 +1,221 @@
+@keyframes title {
+    0% {font-size: 0;}
+    50% {font-size: 70;}
+    100% {font-size: 60;}
+}
+@keyframes acao {
+    0% {opacity: 0%;}
+    75% {opacity: 0%;}
+    100% {opacity: 100;}
+}
+@keyframes subtitle {
+    0% {opacity: 0%;}
+    75% {opacity: 0%;}
+    100% {opacity: 100;}
+}
+@keyframes line {
+    0% {width: 0;}
+    40% {width: 55%;}
+    100% {width: 55%;}
+}
+@keyframes ui {
+    0% {background-color: black;}
+    100% {background-color: gray;}
+}
+
+#titulo {
+    color: whitesmoke;
+    padding-top: 20%;
+    line-height: 1;
+    font-size: 60;
+    text-shadow: red;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    letter-spacing: 5px;
+    animation-name: title;
+    animation-duration: 1s;
+}
+.hr {
+    width: 55%;
+    animation-name: line;
+    animation-duration: 1s;
+}
+
+#subtitulo {
+    color: whitesmoke;
+    padding-left: 28%;
+    padding-right: 28%;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    animation-name: subtitle;
+    animation-duration: .9s;
+}
+
+.selecao {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#acao {
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1px solid whitesmoke;
+    padding: 7px 10px 8px 10px;
+    border-radius: 20px;
+    text-decoration: initial;
+    animation-name: acao;
+    animation-duration: .9s;
+}
+#acao:hover {
+    color: darkgray;
+    border-color: darkgray;
+}
+html, body {
+    background-color: black;
+    margin: 0;
+}
+
+#imagem_fundo {
+    background: url(img/fundo.jpg);
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+.video {
+    padding-top: 4%;
+}
+.coluna {
+    float: left;
+    padding: 3% 4% 4% 4%;
+    position: relative;
+}
+.dois {
+    width: 40%;
+}
+.tres {
+    width: 25%;
+}
+.quatro {
+    width: 17%;
+}
+
+.h3 {
+    color: whitesmoke;
+    text-shadow: red;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: underline;
+}
+.p {
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.p2 {
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#txt {
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    padding-top: 7%;
+}
+.left {
+    text-align: left;
+}
+.center {
+    text-align: center;
+}
+.justify {
+    text-align: justify;
+}
+.destaque {
+    background-image: linear-gradient(to right, black, blue, blue);
+    height: 456px;
+}
+.destaque2 {
+    background-color: white;
+    height: 100%;
+}
+.destaque3 {
+    background-color: black;
+    height: 100%;
+}
+.destaque4 {
+    background-color: white;
+    height: 50%;
+}
+.destaque5 {
+    background-image: linear-gradient(to left, black, red, red);
+    height: 456px;
+}
+.icone {
+    width: 51px;
+}
+.imgeco {
+    width: 100%;
+    height: 30%;
+}
+.mulher {
+    width: 100%;
+    padding-top: 20%;
+}
+.icones {
+    height: 15%;
+}
+#logo {
+    width: 130px;
+    position: absolute;
+    margin-left: 2%;
+}
+#menu {
+    float: right;
+    list-style: none;
+    margin-top: 0px;
+    text-align: center;
+}
+.li {
+    float: left;
+    padding: 20 10 20 15;
+    padding-right: 20;
+    font-size: 20px;
+}
+.li:hover {
+    animation-name: ui;
+    animation-duration: 0.15s;
+    background-color: gray;
+    margin: 1px;
+    border-radius: 0px;
+    box-shadow: 0 10 15 5 solid black;
+}
+header {
+    background-color: black;
+    color: whitesmoke;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+.links {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+#desordenada {
+    padding-left: 90px;
+    float: left;
+    list-style: square;
+    margin-top: 0;
+}
+#ordenada1 {
+    padding-left: 90px;
+    float: left;
+    list-style-type: decimal;
+    margin-top: 0;
+}
+#ordenada2 {
+    padding-left: 90px;
+    float: left;
+    list-style: lower-alpha;
+    margin-top: 0;
+}
